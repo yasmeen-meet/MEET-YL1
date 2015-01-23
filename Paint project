@@ -1,0 +1,39 @@
+#paint project
+import turtle
+ 
+def red_color(a):
+   a=red
+def blue color(a):
+   a=blue
+def draw_circlr_brush(x,y,a):
+   turtle.speed(50)
+   turtle.penup()
+   turtle.goto(x,y)
+   turtle.pendown()
+   turtle.begin_fill()
+   turtle.fillcolor(a)
+   turtle.circle(15)
+   turtle.end_fill()
+   turtle.penup()
+ 
+def draw_triangle_brush(x,y)
+   turtle.speed(50)
+   turtle.begin_fill()
+   turtle.fillcolor(a)
+   turtle.penup()
+   turtle.goto(x,y)
+   turtle.pendown()
+   turtle.goto(x,y+25)
+   turtle.goto(x+25,y+25)
+   
+   turtle.goto(x,y)
+   turtle.end_fill()
+   turtle.penup()
+ 
+turtle.onscreenclick(red_color, btn=1, add=True)
+turtle.onscreenclick(blue_color, btn=2, add=True)
+turtle.onscreenclick(draw_circle_brush, btn=1, add=True)
+turtle.onscreenclick(draw_triangle_brush, btn=3, add=True)
+ 
+ 
+turtle.mainloop()
